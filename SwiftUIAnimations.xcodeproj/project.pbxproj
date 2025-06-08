@@ -11,6 +11,10 @@
 		16686ADF2D36A5FE00163079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16686ADE2D36A5FE00163079 /* ContentView.swift */; };
 		16686AE12D36A60000163079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16686AE02D36A60000163079 /* Assets.xcassets */; };
 		16686AE52D36A60000163079 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16686AE42D36A60000163079 /* Preview Assets.xcassets */; };
+		16686AED2D36A65800163079 /* ThreeDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16686AEC2D36A65800163079 /* ThreeDots.swift */; };
+		16686AEF2D36A84500163079 /* GearLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16686AEE2D36A84500163079 /* GearLoading.swift */; };
+		16686AF12D36B7DE00163079 /* BasicLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16686AF02D36B7DE00163079 /* BasicLoader.swift */; };
+		16686AF32D36BCF500163079 /* AppleLaptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16686AF22D36BCF500163079 /* AppleLaptop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		16686AE02D36A60000163079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16686AE22D36A60000163079 /* SwiftUIAnimations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIAnimations.entitlements; sourceTree = "<group>"; };
 		16686AE42D36A60000163079 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16686AEC2D36A65800163079 /* ThreeDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDots.swift; sourceTree = "<group>"; };
+		16686AEE2D36A84500163079 /* GearLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearLoading.swift; sourceTree = "<group>"; };
+		16686AF02D36B7DE00163079 /* BasicLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLoader.swift; sourceTree = "<group>"; };
+		16686AF22D36BCF500163079 /* AppleLaptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLaptop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		16686ADB2D36A5FE00163079 /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				16686AEB2D36A64000163079 /* Animations */,
 				16686ADC2D36A5FE00163079 /* SwiftUIAnimationsApp.swift */,
 				16686ADE2D36A5FE00163079 /* ContentView.swift */,
 				16686AE02D36A60000163079 /* Assets.xcassets */,
@@ -67,6 +76,17 @@
 				16686AE42D36A60000163079 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16686AEB2D36A64000163079 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				16686AEC2D36A65800163079 /* ThreeDots.swift */,
+				16686AEE2D36A84500163079 /* GearLoading.swift */,
+				16686AF22D36BCF500163079 /* AppleLaptop.swift */,
+				16686AF02D36B7DE00163079 /* BasicLoader.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16686AF12D36B7DE00163079 /* BasicLoader.swift in Sources */,
 				16686ADF2D36A5FE00163079 /* ContentView.swift in Sources */,
+				16686AEF2D36A84500163079 /* GearLoading.swift in Sources */,
+				16686AF32D36BCF500163079 /* AppleLaptop.swift in Sources */,
+				16686AED2D36A65800163079 /* ThreeDots.swift in Sources */,
 				16686ADD2D36A5FE00163079 /* SwiftUIAnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
